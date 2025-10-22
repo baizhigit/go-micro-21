@@ -1,0 +1,33 @@
+# Ignore Docker artifacts
+*.tar
+*.img
+*.log
+*.pid
+*.sock
+.docker/
+docker-data/
+data/
+tmp/
+build/
+dist/
+node_modules/
+venv/
+.env
+
+# Ignore all built Go binaries
+*/brokerApp
+*/loggerServiceApp
+*/mailerApp
+*/authApp
+*/listenerApp
+*/frontApp
+
+# Or more generic pattern
+*/App
+*.exe
+*.out
+*.bin
+
+# Environment
+.env
+*.log
